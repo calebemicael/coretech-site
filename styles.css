@@ -1,7 +1,38 @@
 body {
     font-family: Poppins, sans-serif;
     background-color: #020f1f;
-    margin: 0;
+    margin: 0 2%;
     padding: 0;
     color: white;
 }
+
+.row {
+    display: flex;
+    gap: 1rem; /* space between images */
+    width: 100%;
+  }
+
+    
+  .row img {
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    width: 100%;
+    height: auto; /* height will follow aspect-ratio */
+  }
+
+button {
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 25px;
+    font-size: 16px;
+    padding: 10px 20px;
+}
+
+
+.spacer {
+    flex: 1; /* this fills the remaining space */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
