@@ -1,6 +1,11 @@
+:root {
+    --laranja: #ff914d;
+    --azul: #020f1f;
+}
+
 body {
     font-family: Poppins, sans-serif;
-    background-color: #020f1f;
+    background-color: var(--azul);
     margin: 0 2%;
     padding: 0;
     color: white;
