@@ -6,9 +6,9 @@
   
   .about-header {
     text-align: right;
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin: 40px;
   }
   
   .about-content {
