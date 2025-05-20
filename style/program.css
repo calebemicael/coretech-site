@@ -1,22 +1,22 @@
 .program-container {
-    width: 100%;
+  width: 100%;
+  padding: 40px 5vw;
 }
 .program-header {
-    text-align: left;
-    font-size: 4rem;
-    font-weight: bold;
-    margin: 40px;
-  }
-  
-  .program-container table {
-    margin: 0 auto;
-  }
-    .program-container th,
-    .program-container td {
-        padding: 20px;
-        text-align: center;
-        font-size: 1.2rem;
-        font-weight: normal;
-    }
+  text-align: left;
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.program-container table {
+  margin: 0 auto;
+}
+
+.program-container th, .program-container td {
+    padding: 20px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: normal;
+}
   
   
