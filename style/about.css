@@ -1,0 +1,46 @@
+.about-container {
+  background: var(--laranja);
+  padding: 40px 5vw;
+  color: var(--azul);
+}
+
+.about-header {
+  text-align: right;
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 40px;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.about-text {
+  flex: 3;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1.5rem;
+  text-align: justify;
+}
+
+.about-image {
+  background-image: url("../assets/Logo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 490px;
+  height: 455px;
+  border-radius: 50%;
+  box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.2);
+  /*border: green 5px solid;*/
+  
+}
+
+.about-image img {
+  width: 80%;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

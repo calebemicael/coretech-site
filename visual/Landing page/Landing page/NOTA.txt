@@ -1,0 +1,21 @@
+O site deve ser todo em inglê
+
+O menu que está a baixo das primeiras imagens deve ser interativo, 
+levando para a parte especifica da página ao qual se refere. 
+(Ex: ao clicar no botão "program", o ususário deve ser direcionado a página 
+mais abaixo, na parte da programação do evento)
+Esse menu deve permanecer no topo da pagina sempre na versão desktop, e fica 
+a critério de vocês a possibilidade de colocar ele na lateral no mobile.
+
+Invited Speakers é um carrosel interativo, passando pros 
+lados para exibir as fotos dos palestrantes
+
+Call for posters não precisa ser feito agora, estamos dependendo de 
+terceiro pra concluir os detalhes dessa parte
+
+As informações da parte Hotel e Localização vão ser enviadas em breve
+
+Já podem adicionar a logo de vocês nos patrocinadores
+
+Sobre o modelo Mobile, não precisa alterar nada além do menu ser lateral,
+ como está no slide exemplo

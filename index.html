@@ -3,22 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="hero.css" />
-    <link rel="stylesheet" href="about.css" />
-    <link rel="stylesheet" href="speaker.css" />
-    <link rel="stylesheet" href="program.css" />
+    <title>1st IEEE CASS SERGIPE WORKSHOP</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/styles.css" />
+    <link rel="stylesheet" href="style/hero.css" />
+    <link rel="stylesheet" href="style/about.css" />
+    <link rel="stylesheet" href="style/speaker.css" />
+    <link rel="stylesheet" href="style/program.css" />
+    <link rel="stylesheet" href="style/carrousel.css" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
   </head>
   <body>
     <div class="hero-container">
-      <div
-        style="
-          position: relative;
-          width: 100%;
-          display: flex;
-          justify-content: center;
-        ">
+      <div>
         <div class="header-container">
           <div class="loc-header">
             <span>SERGIPE</span>
@@ -28,19 +30,16 @@
         </div>
       </div>
 
-      <div
-        style="width: 100%; border: 1px solid white; margin-bottom: 5vh"></div>
+      <hr style="color: white; width: 100%;">
 
-      <div class="row">
+      <div class="row hero-images">
         <img src="assets/arcos.png" />
         <img src="assets/carangueijo.png" />
         <img src="assets/palacio olimpio campos.png" />
       </div>
 
       <div class="spacer">
-        <div
-          class="row"
-          style="justify-content: space-evenly; flex-wrap: wrap; gap: 10px">
+        <div class="row">
           <button>HOME</button>
           <button>INVITED SPEAKERS AND LECTURES</button>
           <button>PROGRAM</button>
@@ -52,7 +51,7 @@
     </div>
 
     <div class="about-container">
-      <div class="about-header">ABOUT US</div>
+      <div class="about-header"><h2>ABOUT US</h2></div>
       <div class="about-content">
         <div class="about-text">
           <p>1st IEEE CASS Northeast Brazil Workshop on Circuits and Systems</p>
@@ -75,31 +74,60 @@
             systems.
           </p>
         </div>
-        <div class="about-image">
-          <img src="assets/Logo.png" alt="About image" />
-        </div>
+        <div class="about-image"></div>
       </div>
     </div>
 
-    <div class="speaker-container">
-      <h1 class="speaker-name">NAME & LAST NAME</h1>
-      <div class="speaker-details">
-        <div class="lecture-section">
-          <h2>Title of the lecture</h2>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis,
-          omnis possimus delectus laudantium assumenda praesentium voluptatem!
-          Voluptas perferendis, nam quia cum obcaecati dolorum sunt minima qui
-          ex earum sequi illum.
-        </div>
-        <div class="bio-section">
-          <h2>Shortbio</h2>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis
-          officia velit magnam debitis sint voluptates deleniti nostrum commodi
-          quod dolore itaque odio molestias numquam voluptas vitae quos, autem
-          accusantium amet!
-        </div>
+
+    <div class="invited-speakers">
+      <h2>INVITED SPEAKERS</h2>
+      <div class="carrousel-section">
+        <div class="swiper mySwiper">
+         <div class="swiper-wrapper">
+           <div class="swiper-slide">
+             <img src="./assets/speakers/cristina_meinhardt.png" alt="Orador 1">
+             <h3>Fulaninho</h3>
+             <p>/ DESIGNER DE INTERIORES</p>
+           </div>
+           <div class="swiper-slide">
+             <img src="./assets/speakers/cristina_meinhardt.png" alt="Orador 2">
+             <h3>Ciclaninho</h3>
+             <p>/ DESIGNER DE INTERIORES</p>
+           </div>
+           <div class="swiper-slide">
+             <img src="./assets/speakers/cristina_meinhardt.png" alt="Orador 3">
+             <h3>Beltraninho</h3>
+             <p>/ DESIGNER DE INTERIORES</p>
+           </div>
+           <div class="swiper-slide">
+             <img src="./assets/speakers/cristina_meinhardt.png" alt="Orador 4">
+             <h3>Beltraninho</h3>
+             <p>/ DESIGNER DE INTERIORES</p>
+           </div>
+           <div class="swiper-slide">
+             <img src="./assets/speakers/cristina_meinhardt.png" alt="Orador 5">
+             <h3>Beltraninho</h3>
+             <p>/ DESIGNER DE INTERIORES</p>
+           </div>
+           <div class="swiper-slide">
+             <img src="./assets/speakers/cristina_meinhardt.png" alt="Orador 6">
+             <h3>Beltraninho</h3>
+             <p>/ DESIGNER DE INTERIORES</p>
+           </div>
+           <div class="swiper-slide">
+             <img src="./assets/speakers/cristina_meinhardt.png" alt="Orador 7">
+             <h3>Ciclaninho</h3>
+             <p>/ DESIGNER DE INTERIORES</p>
+           </div>
+       </div>
+       <div class="swiper-pagination"></div>
+</div>
+
+
       </div>
     </div>
+
+    
 
     <div class="program-container">
       <div class="program-header">PROGRAM</div>
@@ -147,5 +175,38 @@
         </tbody>
       </table>
     </div>
+
+    <script src="./js/carrousel.js"></script>
   </body>
 </html>
+
+
+<!--
+<div class="speaker-container">
+      <h1 class="speaker-name">NAME & LAST NAME</h1>
+      <div class="speaker-details">
+        <div class="lecture-section">
+          <h2>Title of the lecture</h2>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis,
+          omnis possimus delectus laudantium assumenda praesentium voluptatem!
+          Voluptas perferendis, nam quia cum obcaecati dolorum sunt minima qui
+          ex earum sequi illum.
+        </div>
+        <div class="bio-section">
+          <h2>Shortbio</h2>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis
+          officia velit magnam debitis sint voluptates deleniti nostrum commodi
+          quod dolore itaque odio molestias numquam voluptas vitae quos, autem
+          accusantium amet!
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+-->
