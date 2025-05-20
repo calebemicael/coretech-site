@@ -8,13 +8,13 @@
 }
 .header-container {
     position: relative;
-    width: fit-content;
+    width: 100%;
   }
   
   .header {
     display: flex;
     justify-content: center;
-    font-size: 5.5vw;
+    font-size: 5vw;
     white-space: nowrap;
     margin: 0;
     width: 100%;
