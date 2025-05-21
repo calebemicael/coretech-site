@@ -4,7 +4,7 @@ div.registration{
     background-color: var(--azul);
     display: flex;
     flex-direction: column;
-    padding: 40px 5vw;
+    padding: 150px 5vw;
 }
 
 div.registration h2 {
