@@ -1,0 +1,49 @@
+
+
+div.hotel-and-location {
+  background-color: var(--laranja);
+  padding: 40px 5vw;
+}
+
+div.hotel-and-location h2 {
+  color: var(--azul);
+  text-align: center;
+  font-size: 4rem;
+  margin-bottom: 40px;
+  font-family: Poppins, sans-serif;
+}
+
+div.hotel-and-location > div.hotel-location-description {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+  color: var(--azul);
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 1.5rem;
+}
+
+div.hotel-location-description > div{
+    width: calc(50% - 20px);
+}
+
+div.interactive-map {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-top: 40px;
+  background-color: var(--azul);
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+div.interactive-map iframe {
+  width: 640px;
+  height: 480px;
+  border: none;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
