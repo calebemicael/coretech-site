@@ -2,12 +2,12 @@
 
 div.membership {
   background-color: var(--laranja);
-  padding: 40px 5vw;
+  padding: 40px var(--pagePadding);
 }
 
 div.membership h2 {
   color: var(--azul);
-  font-size: 4rem;
+  font-size: var(--section-header-font-size);
   margin-bottom: 20px;
   font-family: Poppins, sans-serif;
 

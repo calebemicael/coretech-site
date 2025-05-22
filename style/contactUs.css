@@ -1,0 +1,35 @@
+
+
+footer {
+    padding: 20px var(--pagePadding);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+footer > div{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer hr{
+    width: 200px;
+    display: block;
+    margin: 0;
+}
+
+footer h2{
+    font-size: 2rem;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-bottom: 10px;
+    width: max-content;
+}

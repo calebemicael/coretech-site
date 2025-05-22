@@ -1,0 +1,25 @@
+
+
+div.organizers, div.sponsors {
+  background-color: var(--azul);
+  padding: 20px var(--pagePadding);
+  display: flex;
+  flex-direction: column;
+}
+
+div.organizers h2, div.sponsors h2 {
+  color: white;
+  font-size: var(--section-header-font-size);
+  font-family: Poppins, sans-serif;
+  
+}
+
+div.organizers h2{
+    align-self: flex-start;
+}
+
+div.sponsors h2{
+    align-self: flex-end;
+}
+
+

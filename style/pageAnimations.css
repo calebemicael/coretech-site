@@ -1,0 +1,15 @@
+
+
+div.hero-container img:hover {
+    transform: scale(1.02);
+}
+
+div.hero-container button:hover{
+    color: var(--laranja);
+    border-color: var(--laranja);
+    scale: 1.05;
+}
+
+div.swiper .swiper-slide:hover {
+    transform: scale(1.05);
+}

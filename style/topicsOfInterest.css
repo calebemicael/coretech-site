@@ -2,7 +2,7 @@
 div.topics-of-interest {
   width: 100%;
   background-color: var(--laranja);
-  padding: 60px 5vw;
+  padding: 60px var(--pagePadding);
 }
 
 div.simpleHR {
@@ -17,7 +17,7 @@ div.simpleHR hr {
 
 div.topics-of-interest h2 {
     text-align: right;
-    font-size: 4rem;
+    font-size: var(--section-header-font-size);
     color: var(--azul);
     margin: 0;
 }

@@ -1,14 +1,18 @@
 .about-container {
   background: var(--laranja);
-  padding: 40px 5vw;
+  padding: 40px var(--pagePadding);
   color: var(--azul);
 }
 
 .about-header {
   text-align: right;
-  font-size: 3rem;
   font-weight: bold;
   margin: 40px;
+}
+
+.about-header h2 {
+  font-size: var(--section-header-font-size);
+  margin: 0;
 }
 
 .about-content {

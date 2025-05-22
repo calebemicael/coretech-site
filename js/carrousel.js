@@ -16,3 +16,33 @@ const swiper = new Swiper(".mySwiper", {
       }
     }
   });
+
+const swiper2 = new Swiper(".mySwiper2", {
+  slidesPerView: 5,
+  spaceBetween: 30,
+  centeredSlides: true,
+  loop: true,
+  autoplay: {
+    delay: 1000
+  },
+  breakpoints: {
+    768: {
+      slidesPerView: 5
+    }
+  }
+});
+
+const swiper3 = new Swiper(".mySwiper3", {
+  slidesPerView: 5,
+  spaceBetween: 30,
+  centeredSlides: true,
+  loop: true,
+  autoplay: {
+    delay: 1000
+  },
+  breakpoints: {
+    768: {
+      slidesPerView: 5
+    }
+  }
+});

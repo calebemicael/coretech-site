@@ -4,16 +4,16 @@ div.invited-speakers {
 }
 
 div.invited-speakers h2{
-  font-size: 4rem;
+  font-size: var(--section-header-font-size);
   font-weight: bold;
   margin-bottom: 20px;
   text-align: left;
-  margin-left: 5vw;
+  margin-left: var(--pagePadding);
 }
 
 
 .speaker-container {
-  padding: 60px 5vw;
+  padding: 60px var(--pagePadding);
   text-align: center;
   background: var(--laranja);
   color: var(--azul);
@@ -21,7 +21,7 @@ div.invited-speakers h2{
 
 .speaker-name {
   text-align: right;
-  font-size: 4rem;
+  font-size: var(--section-header-font-size);
   font-weight: bold;
   
 }

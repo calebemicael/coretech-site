@@ -2,13 +2,13 @@
 
 div.hotel-and-location {
   background-color: var(--laranja);
-  padding: 40px 5vw;
+  padding: 40px var(--pagePadding);
 }
 
 div.hotel-and-location h2 {
   color: var(--azul);
   text-align: center;
-  font-size: 4rem;
+  font-size: var(--section-header-font-size);
   margin-bottom: 40px;
   font-family: Poppins, sans-serif;
 }

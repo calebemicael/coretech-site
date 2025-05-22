@@ -1,8 +1,17 @@
-:root {
-    --laranja: #ff914d;
-    --azul: #020f1f;
-}
-
+@import url('./variables.css');
+@import url('./hero.css');
+@import url('./about.css');
+@import url('./speaker.css');
+@import url('./program.css');
+@import url('./carrousel.css');
+@import url('./topicsOfInterest.css');
+@import url('./callForPosters.css');
+@import url('./hotelAndLocation.css');
+@import url('./registration.css');
+@import url('./membership.css');
+@import url('./organizersAndSponsors.css');
+@import url('./contactUs.css');
+@import url('./pageAnimations.css');
 *{
   box-sizing: border-box !important;
 }
@@ -33,14 +42,7 @@ html{
     height: auto; /* height will follow aspect-ratio */
   }
 
-button {
-    background: transparent;
-    color: white;
-    border: 1px solid white;
-    border-radius: 25px;
-    font-size: 16px;
-    padding: 10px 20px;
-}
+
 
 .header {
   font-size: 4rem;
