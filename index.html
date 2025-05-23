@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -31,17 +31,20 @@
         <img src="assets/carangueijo.png" />
         <img src="assets/palacio olimpio campos.png" />
       </div>
-
-      <div class="spacer">
-        <div class="row">
-          <button>HOME</button>
-          <button>INVITED SPEAKERS AND LECTURES</button>
-          <button>PROGRAM</button>
-          <button>HOTELS AND LOCATIONS</button>
-          <button>REGISTRATION</button>
-          <button>IEEE/CASS MEMBERSHIP</button>
-        </div>
-      </div>
+    </div>
+    <div class="spacer" id="spacer">
+      <button class="collapseBtn">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+      </button>
+      <nav class="row navCollapsed">
+        
+        <button>HOME</button>
+        <button>INVITED SPEAKERS AND LECTURES</button>
+        <button>PROGRAM</button>
+        <button>HOTELS AND LOCATIONS</button>
+        <button>REGISTRATION</button>
+        <button>IEEE/CASS MEMBERSHIP</button>
+      </nav>
     </div>
 
     <div class="about-container">
@@ -424,6 +427,7 @@
 
     <script src="https://kit.fontawesome.com/c6444e5d29.js" crossorigin="anonymous"></script>
     <script src="./js/carrousel.js"></script>
+    <script src="./js/viewObservers.js"></script>
   </body>
 </html>
 

@@ -12,6 +12,10 @@
 @import url('./organizersAndSponsors.css');
 @import url('./contactUs.css');
 @import url('./pageAnimations.css');
+@import url('./mediaQuery.css');
+
+
+
 *{
   box-sizing: border-box !important;
 }
@@ -22,6 +26,7 @@ body {
     padding: 0;
     color: white;
     margin: 0;
+    overflow-x: hidden;
 }
 
 html{

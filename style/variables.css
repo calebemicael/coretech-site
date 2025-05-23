@@ -5,3 +5,31 @@
     --pagePadding: 5vw;
     --section-header-font-size: 4rem;
 }
+
+
+div.spacer{
+    --padding: 40px 0px;
+    --background: transparent;
+    --btnBorderRadius: 25px;
+    --btnPadding: 10px 20px;
+    --btnFontSize: 16px;
+    --btnBorder: 1px solid white;
+
+
+
+}
+
+div.spacerScrollMode{
+    --padding: 10px 0px;
+    --background: var(--azul);
+    --btnBorderRadius: 0px;
+    --btnPadding: 10px 20px;
+    --btnFontSize: 16px;
+    --btnBorder: 0px;
+
+}
+
+button.collapseBtn{
+  display: var(--displayMode);
+}
+

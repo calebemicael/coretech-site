@@ -1,0 +1,77 @@
+
+
+
+@media Screen and (max-width: 1300px) {
+    div.spacerScrollMode{
+        --padding: 10px 0px;
+        --background: var(--azul);
+        --btnPadding: 10px 20px;
+        --btnFontSize: 14px;
+        --btnBorder: 0px;
+    }
+
+    div.spacer{
+        --padding: 40px 0px;
+        --background: transparent;
+        --btnBorderRadius: 25px;
+        --btnPadding: 10px 10px;
+        --btnFontSize: 14px;
+        --btnBorder: 1px solid white;
+    }
+    
+}
+
+@media Screen and (max-width: 1050px){
+    div.spacer{
+        --padding: 10px 0px;
+        --background: var(--azul);
+        --btnPadding: 10px 5px;
+        --btnFontSize: 14px;
+        --btnBorder: 0px;
+    }
+
+    div.spacer nav{
+        flex-direction: row;
+        gap: 0.5rem;
+        flex-wrap: wrap;
+    }
+}
+
+@media Screen and (max-width: 1130px){
+    div.spacerScrollMode{
+        --padding: 10px 0px;
+        --background: var(--azul);
+        --btnPadding: 10px 5px;
+        --btnFontSize: 14px;
+        --btnBorder: 0px;
+    }
+
+}
+
+@media Screen and (max-width: 980px){
+    div.spacerScrollMode button.collapseBtn{
+        --displayMode: inline-block;
+        height: max-content;
+        width: max-content;
+        padding: 20px;
+    }
+    div.spacerScrollMode nav {
+        flex-direction: column;
+        gap: 0.5rem;
+        flex-wrap: wrap;
+    }
+
+    div.spacerScrollMode nav button{
+        width: 100%;
+        border-bottom: 1px solid var(--laranja);
+        text-align: left;
+    }
+
+    div.spacerScrollMode{
+        justify-content: left !important;
+    }
+
+    nav.navCollapsed{
+        display: none;
+    }
+}
