@@ -46,8 +46,9 @@ div.topic-btns {
 }
 
 div.topic-btn{
+    --btn-width: calc(100% / 3 - 50px);
     display: inline-block;
-    width: calc(100% / 3 - 50px);
+    width: var(--btn-width);
     padding: 15px;
     background-color: var(--orange);
     border: solid 1px var(--azul);
