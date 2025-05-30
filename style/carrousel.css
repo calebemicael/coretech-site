@@ -6,16 +6,22 @@
 
 div.swiper .swiper-slide{
   transition: all 0.3s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .invited-speakers-wrapper img {
-  height: 350px;
+  --img-height: 350px;
+  height: var(--img-height);
   object-fit: cover;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
 
 .organizers-wrapper img, .sponsors-wrapper img {
-  height: 150px;
+  --img-height: 150px;
+  height: var(--img-height);
   object-fit: cover;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }

@@ -16,7 +16,7 @@ div.registration h2 {
 
 div.registration > p{
     color: var(--white);
-    font-size: 1.5rem;
+    font-size: var(--section-generic-p-font-size);
     margin-bottom: 80px;
     font-family: 'Nunito Sans', sans-serif;
 }
@@ -24,7 +24,7 @@ div.registration > p{
 div.registration > a{
     position: relative;
     color: var(--laranja);
-    font-size: 1.5rem;
+    font-size: var(--section-generic-p-font-size);
     margin-bottom: 20px;
     text-decoration: none;
     padding: 10px 20px;

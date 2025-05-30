@@ -12,39 +12,35 @@
 
 .about-header h2 {
   font-size: var(--section-header-font-size);
+  text-align: var(--section-header-align);
   margin: 0;
 }
 
 .about-content {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  gap: 40px;
-  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .about-text {
-  flex: 3;
+  width: 60%;
   font-family: "Nunito Sans", sans-serif;
-  font-size: 1.5rem;
+  font-size: var(--section-generic-p-font-size);
   text-align: justify;
 }
 
 .about-image {
+  --image-height: 455px;
+  --image-width: 490px;
+
   background-image: url("../assets/Logo.png");
   background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
-  width: 490px;
-  height: 455px;
+  width: var(--image-width);
+  height: var(--image-height);
   border-radius: 50%;
   box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.2);
   /*border: green 5px solid;*/
   
-}
-
-.about-image img {
-  width: 80%;
-  height: auto;
-  border-radius: 50%;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }

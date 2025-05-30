@@ -21,7 +21,7 @@ footer hr{
 }
 
 footer h2{
-    font-size: 2rem;
+    font-size: var(--section-header-font-size);
     font-family: 'Nunito Sans', sans-serif;
 }
 

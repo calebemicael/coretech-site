@@ -15,7 +15,7 @@
 .program-container th, .program-container td {
     padding: 20px;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: var(--section-generic-p-font-size);
     font-weight: normal;
 }
 
