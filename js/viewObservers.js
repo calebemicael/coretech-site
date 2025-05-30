@@ -35,5 +35,16 @@ document.querySelector('button.collapseBtn').addEventListener('click', (event) =
     nav.classList.toggle('navCollapsed');
 });
 
+document.querySelectorAll('nav a').forEach(link => {
+    link.addEventListener('click', (event) => {
+        if (link.getAttribute('href') === '#home') {
+            event.preventDefault();
+            return;
+        }
+        const nav = document.querySelector('nav');
+        nav.classList.add('navCollapsed');
+    });
+});
+
 
 observers.navObserver.observe(document.querySelector('.hero-container'));
