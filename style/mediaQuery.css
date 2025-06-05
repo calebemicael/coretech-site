@@ -210,6 +210,10 @@
     div.registration{
     padding: 50px;
   }
+
+  div.hotels {
+    font-size: 1.5rem;
+  }
   
   }
 
@@ -292,7 +296,9 @@
 
     }
 
-
+    .swiper-slide-speakers {
+      padding: 1.5rem;
+    }
 
 
   }

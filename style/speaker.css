@@ -64,3 +64,18 @@ div.invited-speakers h2{
   line-height: 1.4;
   white-space: pre-wrap;
 }
+
+.swiper-slide-speakers img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.swiper-slide-speakers a {
+  text-decoration: none;
+  color: white;
+}
+
+#jose, #ricardo, #cristina {
+  scroll-margin-top: -5rem;
+}

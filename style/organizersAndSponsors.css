@@ -22,4 +22,8 @@ div.sponsors h2{
     align-self: flex-end;
 }
 
-
+div.organizers img, div.sponsors img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}

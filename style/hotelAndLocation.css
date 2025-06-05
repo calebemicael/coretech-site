@@ -1,5 +1,3 @@
-
-
 div.hotel-and-location {
   background-color: var(--laranja);
   padding: 40px var(--pagePadding);
@@ -21,13 +19,13 @@ div.hotel-and-location > div.hotel-location-description {
   justify-content: space-between;
   gap: 40px;
   color: var(--azul);
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   font-size: var(--section-generic-p-font-size);
 }
 
-div.hotel-location-description > div{
-    --box-width: calc(50% - 20px);
-    width: var(--box-width);
+div.hotel-location-description > div {
+  --box-width: calc(50% - 20px);
+  width: var(--box-width);
 }
 
 div.interactive-map {
@@ -46,10 +44,53 @@ div.interactive-map {
 }
 
 div.interactive-map iframe {
-  
   width: 100%;
   height: 100%;
   border: none;
   border-top-right-radius: 20px;
   border-bottom-left-radius: 20px;
+}
+
+div.hotels {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+span.separator {
+  margin: 0 2rem;
+}
+
+span.separator {
+  margin: 0 2rem;
+}
+
+span.separator {
+  margin: 0 2rem;
+}
+
+div.hotels a {
+  text-decoration: none;
+  color: var(--azul);
+  position: relative;
+}
+
+div.hotels a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 100%;
+  height: 2px;
+  background-color: var(--azul);
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 0.3s ease;
+}
+
+div.hotels a:hover::after {
+  transform: scaleX(1);
 }
