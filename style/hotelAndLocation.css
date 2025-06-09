@@ -29,8 +29,8 @@ div.hotel-location-description > div {
 }
 
 div.interactive-map {
-  --iframe-width: 600px;
-  --iframe-height: 440px;
+  --iframe-width: 640px;
+  --iframe-height: 480px;
   width: var(--iframe-width);
   height: var(--iframe-height);
   display: flex;
