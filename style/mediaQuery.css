@@ -147,6 +147,10 @@
     padding: 80px;
   }
 
+  .membership-table {
+    font-size: 1.2rem; 
+  }
+
   
 }
 
@@ -207,12 +211,27 @@
       padding: 10px;
     }
 
+    div.speaker-name {
+      margin-top: 0 !important;
+    }
+
     div.registration{
     padding: 50px;
   }
 
   div.hotels {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+    gap: .5rem;
+  }
+
+  div.hotels a {
+    width: 100%;
+    padding: 10px;
+    margin: 10px auto;
+  }
+
+  .membership-table {
+    font-size: 1rem; 
   }
   
   }
@@ -249,6 +268,7 @@
       --iframe-width: 100%;
       --iframe-height: 300px;
       padding: 10px;
+      margin-top: 0;
     }
 
     .organizers-wrapper img, .sponsors-wrapper img{
@@ -299,6 +319,15 @@
     .swiper-slide-speakers {
       padding: 1.5rem;
     }
+    
+    .membership-table {
+      font-size: 0.8rem;
+    }
 
-
+    .speaker-details {
+      margin-top: 0;
+    }
+    .speaker-name {
+      margin-top: 0 !important;
+    }
   }

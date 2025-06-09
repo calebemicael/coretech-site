@@ -29,15 +29,15 @@ div.hotel-location-description > div {
 }
 
 div.interactive-map {
-  --iframe-width: 640px;
-  --iframe-height: 480px;
+  --iframe-width: 600px;
+  --iframe-height: 440px;
   width: var(--iframe-width);
   height: var(--iframe-height);
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 20px;
-  margin-top: 40px;
+  margin-top: 20px;
   background-color: var(--azul);
   border-top-right-radius: 20px;
   border-bottom-left-radius: 20px;
@@ -53,44 +53,44 @@ div.interactive-map iframe {
 
 div.hotels {
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.7rem;
   font-weight: bold;
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
-}
-
-span.separator {
-  margin: 0 2rem;
-}
-
-span.separator {
-  margin: 0 2rem;
-}
-
-span.separator {
-  margin: 0 2rem;
+  gap: 1.3rem;
 }
 
 div.hotels a {
-  text-decoration: none;
+  display: inline-block;
+  width: 40%;
+  padding: 15px;
+  background-color: var(--orange);
+  border: solid 1px var(--azul);
+  border-radius: 50px;
+  text-align: center;
+  margin: 20px 20px;
   color: var(--azul);
-  position: relative;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  
 }
 
-div.hotels a::after {
-  content: '';
-  position: absolute;
-  left: 0;
-  bottom: -1px;
-  width: 100%;
-  height: 2px;
+div.hotels a:hover {
   background-color: var(--azul);
-  transform: scaleX(0);
-  transform-origin: center;
-  transition: transform 0.3s ease;
+  color: var(--laranja);
+  transform: scale(1.05);
 }
 
-div.hotels a:hover::after {
-  transform: scaleX(1);
+.location {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.location-title {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: var(--azul);
+  text-align: center;
 }

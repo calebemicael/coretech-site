@@ -21,16 +21,50 @@ div.registration > p{
     font-family: 'Nunito Sans', sans-serif;
 }
 
-div.registration > a{
-    position: relative;
-    color: var(--laranja);
-    font-size: var(--section-generic-p-font-size);
-    margin-bottom: 20px;
-    text-decoration: none;
-    padding: 10px 20px;
-    width: max-content;
-    border: solid 1px var(--laranja);
-    border-radius: 25px;
-    align-self: center;
-    font-family: 'Nunito Sans', sans-serif;
+div.registration > a {
+  position: relative;
+  color: var(--laranja);
+  font-size: var(--section-generic-p-font-size);
+  margin-bottom: 20px;
+  text-decoration: none;
+  padding: 10px 20px;
+  width: max-content;
+  border: solid 1px var(--laranja);
+  border-radius: 25px;
+  align-self: center;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.membership-table {
+  font-family: "Nunito Sans", sans-serif;
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0;
+  font-size: 1.5rem;
+  text-align: left;
+  color: #fff;
+}
+
+.membership-table thead {
+  color: #fff; 
+	border: 1px solid #ccc;
+}
+
+.membership-table th {
+  padding: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+	border: 1px solid #ccc;
+}
+
+.membership-table td {
+  padding: 1rem;
+  border: 1px solid #ccc; 
+}
+
+.membership-table tbody tr:hover {
+	background-color: var(--azul);
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+	background-color: var(--laranja);
 }

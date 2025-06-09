@@ -11,6 +11,14 @@ div.invited-speakers h2{
   margin-left: var(--pagePadding);
 }
 
+.subtitle {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: normal;
+  margin: 0 0;
+  text-align: left;
+  margin-left: var(--pagePadding);
+}
+
 
 .speaker-container {
   padding: 60px var(--pagePadding);
@@ -23,13 +31,13 @@ div.invited-speakers h2{
   text-align: right;
   font-size: var(--section-header-font-size);
   font-weight: bold;
-  
+  margin-top: 0;
 }
 
 .speaker-details {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: stretch;
   position: relative;
   flex-wrap: wrap;
 }
@@ -40,6 +48,7 @@ div.invited-speakers h2{
   min-width: 300px;
   text-align: justify;
   padding: 0px 10px;
+  margin-bottom: 0;
 }
 
 .lecture-section {
