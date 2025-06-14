@@ -87,3 +87,10 @@ nav.navCollapsed {
   transition: all 0.5s ease;
 }
 
+.location-title {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 1.3rem;
+  color: white;
+  text-align: center;
+}
+

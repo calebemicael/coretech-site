@@ -26,6 +26,11 @@
     height: calc(var(--image-height) * 0.8);
     transition: all 0.3s ease-in-out;
   }
+
+  p.location-title{
+    font-size: 1.1rem;
+    text-align: center;
+  }
 }
 
 @media Screen and (max-width: 1130px) {
@@ -151,6 +156,11 @@
     font-size: 1.2rem; 
   }
 
+  p.location-title{
+    font-size: 0.9rem;
+    text-align: center;
+  }
+
   
 }
 
@@ -233,8 +243,13 @@
   .membership-table {
     font-size: 1rem; 
   }
+
+  p.location-title{
+    font-size: 0.75rem;
+    text-align: center;
   
   }
+}
 
   @media screen and (max-width: 620px) {
     :root{
@@ -329,5 +344,11 @@
     }
     .speaker-name {
       margin-top: 0 !important;
+    }
+
+    p.location-title{
+      font-size: 0.35rem;
+      margin-top: 20px;
+      text-align: center;
     }
   }

@@ -1,6 +1,6 @@
 .program-container {
   width: 100%;
-  padding: 150px var(--pagePadding);
+  padding: 80px var(--pagePadding);
 }
 .program-header {
   text-align: left;
