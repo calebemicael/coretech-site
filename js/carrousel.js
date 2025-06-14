@@ -18,7 +18,7 @@ const swiper = new Swiper(".mySwiper", {
   });
 
 const swiper2 = new Swiper(".mySwiper2", {
-  slidesPerView: 5,
+  slidesPerView: 3,
   spaceBetween: 30,
   centeredSlides: true,
   loop: true,
@@ -27,13 +27,13 @@ const swiper2 = new Swiper(".mySwiper2", {
   },
   breakpoints: {
     768: {
-      slidesPerView: 5
+      slidesPerView: 3
     }
   }
 });
 
 const swiper3 = new Swiper(".mySwiper3", {
-  slidesPerView: 5,
+  slidesPerView: 3,
   spaceBetween: 30,
   centeredSlides: true,
   loop: true,
@@ -42,7 +42,7 @@ const swiper3 = new Swiper(".mySwiper3", {
   },
   breakpoints: {
     768: {
-      slidesPerView: 5
+      slidesPerView: 3
     }
   }
 });

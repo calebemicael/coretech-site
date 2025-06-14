@@ -26,6 +26,7 @@ div.venue p{
     font-size: var(--section-generic-p-font-size);
     text-align: justify;
     margin-bottom: 40px;
+
 }
 
 div.venue > p strong {

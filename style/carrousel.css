@@ -20,10 +20,10 @@ div.swiper .swiper-slide{
 }
 
 .organizers-wrapper img, .sponsors-wrapper img {
-  --img-height: 150px;
+  --img-height: 200px;
   height: var(--img-height);
-  object-fit: cover;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  
+  
 }
 
 .swiper-slide-speakers {

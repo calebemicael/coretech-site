@@ -107,6 +107,10 @@
   div.registration{
     padding: 100px;
   }
+
+  div.venue iframe {
+    height: 300px;
+  }
 }
 
 @media Screen and (max-width: 980px) {
@@ -350,5 +354,10 @@
       font-size: 0.35rem;
       margin-top: 20px;
       text-align: center;
+    }
+
+    div.venue iframe {
+      width: 100%;
+      height: 250px;
     }
   }
