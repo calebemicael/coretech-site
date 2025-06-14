@@ -42,29 +42,34 @@ div.registration > a {
   margin: 0;
   font-size: 1.5rem;
   text-align: left;
-  color: #fff;
 }
 
 .membership-table thead {
-  color: #fff; 
-	border: 1px solid #ccc;
+  color: var(--azul); 
+	border: 1px solid var(--azul);
 }
 
 .membership-table th {
   padding: 1rem;
   font-weight: bold;
   text-transform: uppercase;
-	border: 1px solid #ccc;
+	border: 1px solid var(--azul);
 }
 
 .membership-table td {
   padding: 1rem;
-  border: 1px solid #ccc; 
+  border: 1px solid var(--azul); 
+  color: var(--azul);
 }
 
 .membership-table tbody tr:hover {
-	background-color: var(--azul);
 	cursor: pointer;
 	transition: all 0.3s ease-in-out;
-	background-color: var(--laranja);
+	background-color: var(--azul);
+  color: var(--white);
+}
+
+.membership-table tbody tr:hover td {
+  color: var(--white);
+  transition: all 0.3s ease-in-out;
 }
